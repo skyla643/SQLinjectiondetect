@@ -1,0 +1,40 @@
+## How to Use
+
+1. **Clone the Repository**: Clone or download the repository containing the vulnerability scanner code from GitHub.
+
+   ```bash
+   git clone <repository_url>
+   ```
+
+2. **Navigate to the Directory**: Navigate to the directory where the vulnerability scanner code is located.
+
+   ```bash
+   cd <repository_directory>
+   ```
+
+3. **Set Up Python Environment**: Make sure you have Python installed on your system. If not, download and install Python from [here](https://www.python.org/downloads/).
+
+4. **Run the Script**: Run the vulnerability scanner script by executing the following command and providing the start URL as an argument.
+
+   ```bash
+   python vulnerability_scanner.py <start_url>
+   ```
+
+   Replace `<start_url>` with the URL you want to start scanning from. For example:
+
+   ```bash
+   python vulnerability_scanner.py https://example.com
+   ```
+
+5. **Review Output**: The script will start scanning the provided URL and its linked pages. If vulnerabilities are found, they will be printed to the console along with the corresponding URLs.
+
+6. **Customize as Needed**: You can customize the vulnerability checks or modify the code according to your requirements. Simply edit the `vulnerability_scanner.py` file using a text editor or IDE.
+
+7. **Repeat Scans**: You can repeat the scanning process with different URLs by running the script again with a new start URL.
+
+8. **Feedback and Contributions**: If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on GitHub.
+
+By following these instructions, you can use the vulnerability scanner to scan webpages for potential vulnerabilities and enhance the security of your web applications.
+
+Love -
+SMRCCC3301
